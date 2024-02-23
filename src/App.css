@@ -1,0 +1,52 @@
+.bg {
+  background-image: url(./assets/Fondo.webp);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  border-radius: 25px;
+  
+}
+
+.flexFormUno {
+  display: flex;
+  gap: 1rem;
+}
+
+.selectUno {
+  padding: 0.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+.inputText {
+  padding: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    width: 70%;
+  }
+} 
+
+@media (max-width: 768px) {
+  .main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 640px) {
+  .main {
+    width: 90%;
+  }
+}
